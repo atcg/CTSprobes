@@ -1,3 +1,6 @@
+*note*
+The script findRBBHs.pl uses the -max-target-seqs flag in blast, which is technically incorrect because it does not always necessarily return the best hit. I believe this shouldn't have a large impact here because the search databases are so small.
+
 *Summary:*
 ========
 This repository holds the code used to analyze data from an exon capture experiment.
